@@ -1,0 +1,391 @@
+:root {
+    --header: #f5f5f5;
+    --blue: #12d1e2;
+    --gray: #e6e6e6;
+    --footer: #434b4d;
+    --font-family: 'Sanchez', serif;
+}
+
+*{box-sizing: border-box;}
+
+.header-topSection {
+    border-top: 3px solid var(--blue);
+    background-color: var(--header);
+}
+
+.top-link {
+    margin-right:20px;
+    color: gray;
+}
+
+.first-nav {
+    margin-top: 10px;
+}
+
+.login {
+    margin-top: 5px;
+}
+
+.first-link {
+    color: gray;
+}
+
+.top {
+    font-family: var(--font-family);
+    margin-top: 20px;
+}
+
+.logo {
+    /* padding-left: 3px; */
+    padding: 4px 6px;
+    color: white;
+    background-color: var(--blue);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nedor {
+    color: black;
+    margin-left: -15px;
+}
+
+.period {
+    margin-left: -15px;
+    color: var(--blue);
+}
+
+.money-link {
+    width: 50px;
+    height: 10px;
+    /* border: 1px solid gray; */
+    background-color: var(--gray);
+    padding: 10px;
+}
+
+.money-link2 {
+    width: 50px;
+    height: 10px;
+    /* border: 1px solid gray; */
+    background-color: var(--blue);
+    padding: 10px;
+}
+
+.ukflag {
+    width: 20px;
+}
+
+.money-nav {
+    margin-top: 20px;
+}
+
+.other-nav {
+    margin-top: 20px;
+}
+
+.other-link {
+    padding: 20px;
+    color: black;
+}
+
+.other-link:hover {
+    color: var(--blue);
+}
+
+.sliders {
+    margin-top: -20px;
+}
+
+.slider {
+    margin-right: 10px;
+    height: 5px;
+    background-color: var(--footer);
+    width: 60px;
+    border: 1px solid var(--footer);
+}
+
+.slider:hover {
+    background-color: var(--blue);
+}
+
+.sum-images {
+    margin-top: 20px;
+}
+
+.latest-section {
+    margin-top: 20px;
+}
+
+.latest {
+    border-left: 4px solid var(--blue);
+    margin-left: 250px;
+}
+
+.linez {
+    margin-right: 400px;
+}
+
+.line {
+    margin-top: 20px;
+    background-color: var(--gray);
+    height: 2px;
+    width: 100%;
+    border: 1px solid var(--gray);
+}
+
+.buttonz {
+    margin-top: -20px;
+    margin-left: 800px;
+}
+
+.bi2 {
+    height: 50px;
+    width: 50px;
+    color: var(--footer);
+    background-color: var(--gray);
+    border: 1px solid var(--gray);
+}
+
+.bi2:hover {
+    background-color: var(--blue);
+}
+
+.discount { 
+    padding: 3px;
+    border-radius: 1px;
+    font-size: large;
+    color: white;
+    height: 30px;
+    width: 55px;
+    background-color: #ff0198;
+}
+
+.bracelet {
+    position: relative;
+}
+
+.price1 { 
+    position: absolute;
+    z-index: 2;
+    margin: -70px 0 0 120px;
+    padding: 15px 0 0 10px;
+    background-color: var(--blue);
+    height: 15%;
+    width: 17%;
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+}
+
+.trench {
+    position: relative;
+}
+
+.price2 { 
+    position: absolute;
+    z-index: 2;
+    margin: -70px 0 0 120px;
+    padding: 15px 0 0 10px;
+    background-color: var(--blue);
+    height: 16%;
+    width: 20%;
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+}
+
+.gloves {
+    position: relative;
+}
+
+.price3 { 
+    position: absolute;
+    margin:-75px 0 0 135px;
+    padding: 15px 0 0 15px;
+    background-color: var(--blue);
+    height: 17%;
+    width: 20%;
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+}
+
+.sweater{
+    position: relative;
+}
+
+.price4 { 
+    position: absolute;
+    margin: -70px 0 0 120px;
+    padding: 17px 0 0 10px;
+    background-color: var(--blue);
+    height: 17%;
+    width: 20%;
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+}
+
+.welcome {
+    margin-left: 240px
+}
+
+.wtv {
+    border-left: 4px solid var(--blue);
+}
+
+.buy {
+    margin-top: -20px;
+}
+
+.bestseller {
+    border-left: 4px solid var(--blue);
+    margin-left: 250px;
+}
+
+.p2 {
+    margin-left: 240px
+}
+
+.elephant {
+    position: relative;
+}
+
+.price5 { 
+    position: absolute;
+    margin:-60px 0 0 220px;
+    padding: 12px 0 0 7px;
+    background-color: var(--blue);
+    height: 14%;
+    width: 17%;
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+}
+
+.mount.everest {
+    position: relative;
+}
+
+.price6 { 
+    position: absolute;
+    margin:-70px 0 0 200px;
+    padding: 14px 0 0 8px;
+    background-color: var(--blue);
+    height: 14%;
+    width: 16%;
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+}
+
+.moon {
+    position: relative;
+}
+
+.price7 { 
+    position: absolute;
+    margin:-70px 0 0 180px;
+    padding: 14px 0 0 12px;
+    background-color: var(--blue);
+    height: 15%;
+    width: 16%;
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+}
+
+.herby {
+    position: relative;
+}
+
+.price8 { 
+    position: absolute;
+    margin:-70px 0 0 160px;
+    padding: 12px 0 0 10px;
+    background-color: var(--blue);
+    height: 14%;
+    width: 15%;
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+}
+
+.manufacturers {
+    border-left: 4px solid var(--blue);
+    margin-left: 190px;
+}
+
+.lines {
+    margin-right: 350px;
+}
+
+.title {
+    font-size: large;
+}
+
+.p1 {
+    margin-left: 250px;
+}
+
+.adds {
+    margin-top: 20px;
+}
+
+.add {
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color: var(--footer);
+    border: 1px solid var(--footer);
+}
+
+.welcome-section {
+    margin-top: 50px;
+}
+
+.last-thing {
+    height: 100px;
+    background-color: var(--gray);
+}
+
+.last-part1 {
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.last-part2 {
+    margin-top: 25px;
+    border: 4px solid yellow;
+    margin-right: 50px;
+}
+
+.accountz {
+    color: white;
+}
+
+.infoz {
+    color: white;
+}
+
+.twitter {
+    color: white;
+}
+
+.bananas { 
+    height: 20px;
+    border: 1px solid var(--footer);
+    background-color: var(--footer);
+}
+
+.fb {
+    color: white;
+}
+
+.colophon {
+    color: white;
+}
+
+.footer {
+    background-color: var(--footer);
+}

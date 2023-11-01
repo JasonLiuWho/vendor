@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Oswald:wght@200;400;500&family=Sanchez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Venedor</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <section class="header-topSection">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8 d-flex justify-content-center">
+                        <nav class="first-nav">
+                            <a href="#" class="first-link text-decoration-none"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                                </svg>
+                                <span class="top-link text-capitalize"> wishlist (0)</span>
+                            </a>
+                            <a href="#" class="first-link text-decoration-none"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                                </svg>
+                                <span class="top-link text-capitalize">my account</span>
+                            </a>
+                            <a href="#" class="first-link text-decoration-none"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                </svg>
+                                <span class="top-link text-capitalize">shopping cart</span>
+                            </a> 
+                            <a href="#" class="first-link text-decoration-none"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                                </svg>
+                                <span class="top-link text-capitalize">checkout</span>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <p class="login text-capitalize">
+                        visitor you can <a href="#" class="login text-decoration-none">login</a> or <a href="#" class="create text-decoration-none">create an account</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="header-otherSection">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <h1 class="top">
+                            <a href="#" class="text-decoration-none">
+                                <span class="logo text-capitalize">ve</span>
+                                <span class="nedor">nedor</span>
+                                <span class="period">.</span>
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-end">
+                        <nav class="money-nav" id="header-midNav">
+                            <a href="#" class="money-link text-capitalize text-decoration-none ">us dollar</a>
+                            <i class="flag flag-united-kingdom"></i>
+                            <a href="#" class="money-link text-capitalize text-decoration-none"><img src="images/united-kingdom-apple.png" alt="uk flag" class="ukflag">english</a>
+                            <a href="#" class="money-link2 text-decoration-none"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                </svg>
+                                <span class="money-link2">0 item(s)-$0.00</span>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="head-botNav">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 d-flex justify-content-center">
+                            <nav class="other-nav text-uppercase" id="header-botNav">
+                                <a href="#" class="other-link text-decoration-none">fashion</a>
+                                <a href="#" class="other-link text-decoration-none">electronics</a>
+                                <a href="#" class="other-link text-decoration-none">gifts</a>
+                                <a href="#" class="other-link text-decoration-none">books</a>
+                                <a href="#" class="other-link text-decoration-none">at home</a>
+                                <a href="#" class="other-link text-decoration-none">music</a>
+                            </nav>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <form action="#" class="form d-flex" role="search">
+                            <div class="form-floating">
+                                <input type="search" class="form-control me-2" aria-label="search" id="search">
+                                <label for="search">search
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </header>
+    <main class="main" id="main">
+        <section class="banner-section">
+            <div class="container-fluid">
+                <img src="images/venedor2.0.jpg" alt="vendor page" class="w-100">
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="sliders d-flex justify-content-center">
+                        <div class="slider"></div>
+                        <div class="slider"></div>
+                        <div class="slider"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pics">
+            <div class="container-fluid">
+                <div class="ads d-flex justify-content-around">
+                    <div class="row">
+                        <div class="truck-image col-md-4">
+                            <img src="images/truck.jpg" alt="pic of truck" class="sum-images">
+                        </div>
+                        <div class="sales-image col-md-4">
+                            <img src="images/sales.jpg" alt="sales logo" class="sum-images">                    
+                        </div>
+                        <div class="shoe-image col-md-4">
+                            <img src="images/shoes.jpg" alt="pic of shoes" class="sum-images">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="latest-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="problem d-flex justify-content-evenly">
+                        <div class="late col-md-3">
+                            <h2 class="latest text-capitalize">latest</h2>
+                        </div>
+                        <div class="linez col-md-6">
+                            <div class="line">
+                        </div>
+                        <div class="buttonz col-md-3">
+                            <a href="#" class="arrow text-decoration-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi2 bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                </svg>
+                            </a> 
+                            <a href="#" class="arrow text-decoration-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi2 bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="p1 w-50">                  
+                Buy discount items from the latest collection of world brands
+            </p>
+            <div class="container-fluid">
+                <div class="guds d-flex justify-content-around">
+                    <div class="row">
+                        <div class="bracelet col-md-3">
+                            <div class="discount">-1%</div>
+                            <img src="images/bracelet.jpg" alt="diamond braclet" class="bracelet">
+                            <div class="price1">$999k</div>
+                            <img src="images/starz.jpg" alt="rating" class="rating w-50">
+                            <p class="title text-capitalize"> "Real" Diamond Bracelet</p>
+                            <input type="button" class="add text-decoration-none text-capitalize" value="add to cart">
+                        </div>
+                        <div class="trench col-md-3">
+                            <div class="discount">-439%</div>
+                            <img src="images/trench.jpg" alt="trench coat" class="trench">
+                            <div class="price2">$4,983</div>
+                            <img src="images/starz.jpg" alt="rating" class="rating w-50">
+                            <p class="title text-capitalize">Sherlock Holmes's Trench Coat</p>
+                            <input type="button" class="add text-decoration-none text-capitalize" value="add to cart">
+                        </div>
+                        <div class="gloves col-md-3">
+                            <div class="discount">-0%</div>
+                            <img src="images/gloves.png" alt="leather gloves" class="gloves">
+                            <div class="price3">$1.56</div>
+                            <img src="images/starz.jpg" alt="rating w-50">
+                            <p class="title text-capitalize">AlienGator leather footskin gloves</p>
+                            <input type="button" class="add text-decoration-none text-capitalize" value="add to cart">
+                        </div>
+                        <div class="sweater col-md-3">
+                            <div class="discount">-74%</div>
+                            <img src="images/sweater.jpg" alt="wool knitted sweater" class="gloves">
+                            <div class="price4">$685.92</div>
+                            <img src="images/starz.jpg" alt="rating w-50">
+                            <p class="title text-capitalize">Wool Knitted Dino pantz</p>
+                            <input type="button" class="add text-decoration-none text-capitalize" value="add to cart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="welcome-section">
+            <div class="container-fluid">
+                <div class="welcome d-flex justify-content-center">
+                    <div class="row">
+                        <div class="paragraph col-md-5">
+                            <h2 class="wtv text-capitalize">welcome to vendor</h2>
+                            <p>Venedor is a fully responsive PSD theme designed for all types of platforms: WooCommerce, Magento, OpenCart, PrestaShop and others. Basted on Bootstrap's 12 column 1200px responsive grid Template. Great looks on desktops, tablets adn mobiles.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magni quae iste, ad dolor optio voluptatum explicabo velit maiores recusandae, pariatur voluptas ratione blanditiis aut ab nesciunt voluptate quisquam. Sed et sint nostrum recusandae nam officiis voluptates voluptatum esse nulla explicabo eligendi perferendis, accusantium laboriosam obcaecati!</p>
+                            <a href="#" class="buy text-decoration-none">Buy Venedor Theme!</a>
+                        </div>
+                        <div class="tech col-md-7">
+                            <img src="images/tech.jpg" alt="different types of technology" class="w-50">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bestsellers-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="problem d-flex justify-content-evenly">
+                        <div class="late col-md-3">
+                            <h2 class="bestseller text-capitalize mt-4">bestseller</h2>
+                        </div>
+                        <div class="linez col-md-6 mt-4">
+                            <div class="line">
+                        </div>
+                        <div class="buttonz col-md-3">
+                            <a href="#" class="arrow text-decoration-none mt-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi2 bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                </svg>
+                            </a> 
+                            <a href="#" class="arrow text-decoration-none mt-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi2 bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </a>
+                        </div>
+                </div>
+            </div>
+            <p class="p2 w-50">
+                Special offers and biggest discounts for the most popular products
+            </p>
+            <div class="container-fluid">
+                <div class="guds d-flex justify-content-center">
+                    <div class="row">
+                        <div class="bracelet col-md-3">
+                            <div class="discount">1% Off</div>
+                            <img src="images/elephant.jpg" alt="elephant" class="elephant">
+                            <div class="price5">$842k</div>
+                            <img src="images/starz.jpg" alt="rating w-50">
+                            <p class="title text-capitalize">Dumbo's Uncle</p>
+                            <input type="button" class="add text-decoration-none text-capitalize" value="add to cart">
+                        </div>
+                        <div class="trench col-md-3">
+                            <div class="discount">439% Off</div>
+                            <img src="images/mount everest.jpg" alt="mount everest" class="mount everest">
+                            <div class="price6">$4,983</div>
+                            <img src="images/starz.jpg" alt="rating w-50">
+                            <p class="title text-capitalize">Left upper side only</p>
+                            <input type="button" class="add text-decoration-none text-capitalize" value="add to cart">
+                        </div>
+                        <div class="gloves col-md-3">
+                            <div class="discount">0% Off</div>
+                            <img src="images/moon.jpg" alt="moon" class="moon">
+                            <div class="price7">$1.56</div>
+                            <img src="images/starz.jpg" alt="rating w-50">
+                            <p class="title text-capitalize">Tonight we steal Za moon</p>
+                            <input type="button" class="add text-decoration-none text-capitalize" value="add to cart">
+                        </div>
+                        <div class="sweater col-md-3">
+                            <div class="discount">-74% Off</div>
+                            <img src="images/herby.jpg" alt="herbert" class="herby">
+                            <div class="price8">Free</div>
+                            <img src="images/starz.jpg" alt="rating w-50">
+                            <p class="title text-capitalize">This guy's house</p>
+                            <input type="button" class="add text-decoration-none text-capitalize" value="add to cart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="manufacturers-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="problem d-flex justify-content-evenly">
+                    <div class="late col-md-3">
+                        <h2 class="manufacturers text-capitalize mt-4">manufacturers</h2>
+                    </div>
+                    <div class="lines col-md-6 mt-4">
+                        <div class="line">
+                    </div>
+                    <div class="buttonz col-md-3">
+                        <a href="#" class="arrow text-decoration-none mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi2 bi-chevron-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                            </svg>
+                        </a> 
+                        <a href="#" class="arrow text-decoration-none mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi2 bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="bl d-flex justify-content-evenly">
+                        <img src="images/brand logo.jpg" alt="">
+                        <img src="images/brand logo.jpg" alt="">
+                        <img src="images/brand logo.jpg" alt="">
+                        <img src="images/brand logo.jpg" alt="">
+                        <img src="images/brand logo.jpg" alt="">
+                        <img src="images/brand logo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid"> 
+                <div class="row">
+                    <div class="last-thing d-flex justify-content-evenly">
+                        <h3 class="last-part1 text-capitalize"> up to receive the latest fashion news</h3>
+                        <div class="zzz">
+                            <input type="email" name="email" id="email" class="last-part2" placeholder="Enter your email address" value required>
+                            <a href="#" class="bananas text-capitalize text-decoration-none">sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <section class="footer-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="account col-md-3">
+                        <h4 class="accountz text-capitalize">my account</h4>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#" class="accountz text-decoration-none text-capitalize">my account</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="accountz text-decoration-none text-capitalize">personal information</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="accountz text-decoration-none text-capitalize">addresses</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="accountz text-decoration-none text-capitalize">discount</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="accountz text-decoration-none text-capitalize">orders history</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="accountz text-decoration-none text-capitalize">your vouchers</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="info d-flex col-md-3">
+                        <h4 class="infoz text-capitalize">information</h4>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#" class="infoz text-decoration-none text-capitalize">new products</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="infoz text-decoration-none text-capitalize">top sellers</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="infoz text-decoration-none text-capitalize">specials</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="infoz text-decoration-none text-capitalize">manufacturers</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="infoz text-decoration-none text-capitalize">suppliers</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="infoz text-decoration-none text-capitalize">our stores</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="twit d-flex col-md-3">
+                        <div class="twitter text-capitalize">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A est illo nulla, porro fugit at animi doloremque!</p>
+                            <a href="#"></a>
+                            <p>about 1 hours ago</p>
+                        </div>
+                        <div class="twitter text-capitalize">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio molestiae illo iste <a href="#"></a> facilis recusandae.</p>
+                            <p>about 3 hours ago</p>
+                        </div>
+                    </div>
+                <section class="fb">
+                    <div class="facebook d-flex col-md-3">
+                        <p>1452 people like <a href="#" class="PromoKit text-decoration-none">PromoKit</a></p>
+                        <img src="images/people.jpg" alt="">
+                    </div>
+                </section>
+                <section class="media">
+                    <div class="social-meida">
+                        <nav class="last-nav">
+                            <ul class="nav-list">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <p class="colophon"> &2012; by WooCommerce.All Rights Reserved.</p>
+        </section>
+    </footer>
+</body>
+</html>
